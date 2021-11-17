@@ -16,7 +16,7 @@ async function create_order(amount) {
         return data;
     }
     else{
-        var rzcreateorderurl = "https://grambaba.com/order/create-order.php";
+        var rzcreateorderurl = "https://grambaba.com/order/create-order/";
         var response = await fetch(rzcreateorderurl, {
             method: 'POST',
             headers: {'Content-Type':'application/x-www-form-urlencoded'},

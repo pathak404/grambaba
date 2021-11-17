@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
         rel="stylesheet">
-    <title>Buy Instagram Likes - GRAMBABA</title>
+    <title>Buy Instagram Reel Likes - GRAMBABA</title>
 </head>
 
 <body>
@@ -56,13 +56,14 @@
     </header>
 
 
+
     <section class="product">
         <div class="container">
             <div class="productWrapper">
-                <div class="productImage"><img src="/assets/product/images/buy-instagram-likes-grambaba.png"
+                <div class="productImage"><img src="/assets/product/images/buy-instagram-reel-likes-grambaba.png"
                         alt="buy instagram views - grambaba"></div>
                 <div class="productDetails">
-                    <h3>Instagram Likes</h3>
+                    <h3>Instagram Reel Likes</h3>
                     <p>Starting Price from INR 1</p>
                     <ul class="productFeatures">
                         <li><span class="material-icons-outlined">
@@ -177,6 +178,7 @@
 
 
 
+
     <!-- footer -->
     <footer class="footer">
         <div class="topFooter">
@@ -208,9 +210,8 @@
 
     <!-- loader -->
     <div id="payLoader"><span>.</span></div>
-
     <!-- to be sent data -->
-    <form id="orderData" method="POST" action="https://grambaba.com/order/order-details.php">
+    <form id="orderData" method="POST" action="https://grambaba.com/order/order-details/">
         <input type="hidden" name="orderiddata" id="orderiddata">
         <input type="hidden" name="serviceid" id="service" value="6587">
         <input type="hidden" name="iglinkdata" id="iglinkdata">
@@ -221,8 +222,6 @@
         <input type="hidden" name="nonce" id="nonce">
     </form>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-
-
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>

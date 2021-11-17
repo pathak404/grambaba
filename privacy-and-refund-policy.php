@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1c1d1f">
-    <link rel="stylesheet" href="/assets/product/style.css">
+    <link rel="stylesheet" href="/assets/other/other-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
         rel="stylesheet">
-    <title>Buy Instagram Reel Views - GRAMBABA</title>
+    <title>Privacy & Refund Policy - GRAMBABA</title>
 </head>
 
 <body>
@@ -56,113 +56,98 @@
     </header>
 
 
-    <section class="product">
+
+
+
+    <section class="privacy-refund">
         <div class="container">
-            <div class="productWrapper">
-                <div class="productImage"><img src="/assets/product/images/buy-instagram-reel-views-grambaba.png"
-                        alt="buy instagram views - grambaba"></div>
-                <div class="productDetails">
-                    <h3>Instagram Reel Views</h3>
-                    <p>Starting Price from INR 1</p>
-                    <ul class="productFeatures">
-                        <li><span class="material-icons-outlined">
-                                done
-                            </span>Instant Delivery</li>
-                        <li> <span class="material-icons-outlined">
-                                close
-                            </span>No Password Required</li>
-                        <li><span class="material-icons-outlined">
-                                done
-                            </span>Moneyback Gurantee</li>
-                        <li><span class="material-icons-outlined">
-                                done
-                            </span>24/7 Support</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- order -->
-            <div class="orderForm">
-                <form id="order">
-                    <div class="instagramlink">
-                        <label for="instagramlink">Instagram Link:</label>
-                        <input type="text" name="instagramlink" id="instagramlink" required>
-                    </div>
+            <h2><strong>Privacy Policy</strong></h2>
+            <p>We highly values your privacy. We follow a policy of confidentiality to tell you how we collect and use
+                information about you and what we do to keep this information confidential.
+
+                In GRAMBABA we do not share confidential information that you have provided to us. Also, we never share
+                this information with third parties. Only your order link (Instagram post/reel link) will be shared with
+                partner site to fullfill your request.
 
 
+                </br>
 
-                    <p>Choose Quantity:</p>
-                    <div class="priceList">
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="quantity" data-price="1" value="100"><span>100</br> Re.
-                                    1</span>
-                            </label>
-                        </div>
 
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="quantity" data-price="2" value="200"><span>200</br> Rs.
-                                    2</span>
-                            </label>
-                        </div>
+                </br> You can resell our services, We do not disclose information about your resale - all information
+                remains with us.
 
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="quantity" data-price="5" value="500"><span>500</br> Rs.
-                                    5</span>
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="quantity" data-price="10" value="1000"><span>1000</br> Rs.
-                                    10</span>
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="quantity" data-price="20" value="2000"><span>2000</br> Rs.
-                                    20</span>
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="quantity" data-price="50" value="5000"><span>5000</br> Rs.
-                                    50</span>
-                            </label>
-                        </div>
-                    </div>
+
+                </br> GRAMBABA will protect your data for safety and the prevention of fraud, theft or loss. Also, we
+                guarantee the safety of your data from copying or modification by third parties.
+
+
+                </br> GRAMBABA works only with legal representatives who value the protection of personal information.
+                That’s why we confirm that your information will be protected.</p>
 
 
 
 
-                    <div class="submitForm">
+            <h2><strong>Refund Policy</strong></h2>
+            <p>We allow 14 Days Refund for following Conditions.
 
-                        <table class="isqty">
-                            <!-- <caption>Order Summary</caption> -->
-                            <tr>
-                                <th>Quantity</th>
-                                <td id="selectedQty">0</td>
-                            </tr>
-                            <tr>
-                                <th>Price</th>
-                                <td id="price">0</td>
-                            </tr>
-                            <tr>
-                                <th>Conversation fee (2%)</th>
-                                <td id="conv">0</td>
-                            </tr>
-                            <tr>
-                                <th>Total Price</th>
-                                <td id="total">0</td>
-                            </tr>
-                        </table>
-                        <div id="qtyNotice">Please Select Quantity</div>
-                        <input type="submit" class="btn primary-btn disabled" value="Make Payment">
-                    </div>
-                </form>
-            </div>
+                </br>1) If order marked completed without done. Full Refund
+
+                </br> 2) If order not started within 5 days, Full Refund.
+
+                </br> 3) We Provide partial Refund for all Refill services(All followers services) as Refill conditions.
+
+                </br>
+                </br>
+                </br> You agree that once you complete a payment, you will not file a dispute or a chargeback against us
+                for any reason. For Refund contact us.
+
+
+                </br> If you file a dispute or chargeback against us after a transaction, we reserve the right to
+                terminate all future orders, ban you from our site. We also reserve the right to take away any followers
+                or likes we delivered to your or your clients Instagram.
+
+
+                </br> Orders placed in GRAMBABA will not be refunded or canceled after they are placed. You will receive
+                a refund, if the order is non deliverable.
+
+
+                </br> Misplaced or Private account orders will not qualify for a refund. Be sure to confirm each and
+                every order before placing it.
+                </br> Make sure post is public and not deleted before placing an order. In this case, no refund.
+
+
+                </br> Fraudulent activity such as using unauthorized or stolen credit cards will lead to termination of
+                your account. There are no exceptions.
+
+
+                </br> Please do not use more than one service at the same time for the same post/reel. We cannot give
+                you correct followers/likes number in that case. We will not refund for these orders. Please keep
+                attention!
+
+
+                </br> Our most of the service start instantly expect few services that take 24-48 hrs to deliver. If you
+                do not receive your service in time, please contact support for fix issue. We are online 18 hours per
+                days to provide you support</p>
+
+            <h3><strong>Disclaimer</strong></h3>
+            <p>All logos and trademarks of third parties referenced on grambaba.com are the trademarks and logos of
+                their respective owners. Any inclusion of such trademarks or logos does not imply or constitute any
+                approval, endorsement or sponsorship of GRAMBABA by such owners.</p>
+
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -195,25 +180,10 @@
         </div>
     </footer>
 
-    <!-- loader -->
-    <div id="payLoader"><span>.</span></div>
-    <!-- to be sent data -->
-    <form id="orderData" method="POST" action="https://grambaba.com/order/order-details.php">
-        <input type="hidden" name="orderiddata" id="orderiddata">
-        <input type="hidden" name="serviceid" id="service" value="6587">
-        <input type="hidden" name="iglinkdata" id="iglinkdata">
-        <input type="hidden" name="pricedata" id="pricedata">
-        <input type="hidden" name="quantitydata" id="quantitydata">
-        <input type="hidden" name="paymentid" id="paymentid">
-        <input type="hidden" name="signature" id="signature">
-        <input type="hidden" name="nonce" id="nonce">
-    </form>
-    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/assets/product/main.js"></script>
     <script>
         const themeBtnIcon = document.querySelector("button.theme-btn span");
         function setTheme(themeName) {
@@ -303,46 +273,6 @@
             });
 
         })(window, jQuery);
-
-
-        $("input:checkbox").on('click', function () {
-            var $box = $(this);
-            if ($box.is(":checked")) {
-                $box.closest("div.form-group").css("background-color", "var(--secondary-col)");
-                $('input[name="' + this.name + '"]').not(this).prop('checked', false);
-                $('input[name="' + this.name + '"]').not(this).closest("div.form-group").removeAttr("style");
-                $box.prop("checked", true);
-                $("#selectedQty").text($box.val());
-                gettotal($("input[name='quantity']:checked").data("price"));
-                $("div.submitForm table.isqty").removeClass("isqty");
-                $("#qtyNotice").css("display", "none");
-            } else {
-                $box.prop("checked", false);
-                $box.closest("div.form-group").removeAttr("style");
-                $("div.submitForm table").addClass("isqty");
-                $("#qtyNotice").css("display", "block");
-                $("#selectedQty").text(0);
-                $("#conv").text(0);
-                $("#price").text(0);
-                $("#total").text(0);
-            }
-        });
-        $("#order :input").change(function () {
-            $qty = $("input[name='quantity']");
-            $linkField = $("input[name='instagramlink']");
-            if ($qty.is(":checked") && $linkField.val() != "") {
-                $("input[type='submit']").removeClass("disabled");
-            } else {
-                $("input[type='submit']").addClass("disabled");
-            }
-        });
-        $("input[type='text'], textarea").on("keyup", function () {
-            if ($(this).val() != "") {
-                $("input[type='submit']").removeClass("disabled");
-            } else {
-                $("input[type='submit']").addClass("disabled");
-            }
-        });
 
     </script>
 </body>

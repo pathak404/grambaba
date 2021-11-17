@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#1c1d1f">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../assets/home-assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" sizes="57x57" href="favicon.png" type="image/png">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
         rel="stylesheet">
-    <title>Contact Us - GRAMBABA</title>
+    <title>Home - GRAMBABA</title>
 </head>
 
 <body>
@@ -24,7 +25,7 @@
         <div class="container">
             <div class="logoWrapper">
                 <!-- <a href="/">GRAMBABA</a> -->
-                <a href="/"><img src="../logo-grambaba.svg" alt="grambaba logo"></a>
+                <a href="/"><img src="logo-grambaba.svg" alt="grambaba logo"></a>
             </div>
             <nav role="navigation">
                 <ul class="navMenuList">
@@ -57,121 +58,67 @@
 
 
 
-
-
-
-
-
-    <div class="container-contact-us">
-
-        <div class="contact-input-container">
-            <div id="contactFormResponse">
-                <div id="contactFormLoader"><span>.</span></div>
-
-                <div id="contactFormSuccess">
-                    <div class="contactFormSuccessAnm"><span><svg class="contactResponseSVG"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                                <circle class="contactResponseSVG_circle" cx="26" cy="26" r="25" fill="none" />
-                                <path class="contactResponseSVG_check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
-                            </svg></span>
-
-                    </div>
-                    <h1>Message Sent!</h1>
-                    <p>Thank you for contacting us, We will reply as soon as possible.</p>
-                    <div class="contactFormResponseBtn">
-                        <a href="/" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="15 18 9 12 15 6"></polyline>
-                            </svg>Home</a>
-                        <a href="#" class="button">New<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="15 18 9 12 15 6"></polyline>
-                            </svg></a>
-                    </div>
-                </div>
-
-
-                <div id="contactFormError">
-                    <div class="contactFormErrorAnm"><span><svg class="contactResponseErrorSVG"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
-                                <circle class="contactResponseError_circle" cx="26" cy="26" r="25" fill="none" />
-                                <path class="contactResponseSVG_check" fill="none" d="M16 16 36 36 M36 16 16 36" />
-                            </svg></span>
-                        <h1>Something Went Wrong!</h1>
-                    </div>
-                    <p id="contact-form-message"></p>
-
-                    <div class="contactFormResponseBtn">
-                        <a href="/" class="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="15 18 9 12 15 6"></polyline>
-                            </svg>Home</a>
-                        <a href="#" class="button">Retry<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="15 18 9 12 15 6"></polyline>
-                            </svg></a>
-                    </div>
+    <!-- main -->
+    <main>
+        <div class="container">
+            <div class="mainPartOne">
+                <div class="contentWrapper">
+                    <h2 class="mainText">Buy Instagram Likes, Views and Reel likes, Views in cheap Price</h2>
+                    <!-- <button class="btn primary-btn ripple"><a href="#allservices">All Services</a></button> -->
+                    <a href="#services" class="btn primary-btn">All Services</a>
                 </div>
             </div>
-
-            <div class="contact-page-text">
-                <h1>Contact Us</h1>
-                <p>Have a question? fill out the form below.</p>
-                <hr>
+            <div class="mainPartTwo">
+                <div class="image"><img src="../assets/home-assets/Social Media_Flatline.svg" alt=""></div>
             </div>
-
-            <form id="contact-form">
-
-
-                <div class="contact-input">
-                    <input type="text" name="contact-name" placeholder="Name" required />
-                    <!-- <label>Name</label> -->
-                </div>
-
-                <div class="contact-input">
-                    <input type="text" name="contact-email" placeholder="Email" required />
-                    <!-- <label>Email</label> -->
-                </div>
-
-                <div class="contact-input">
-                    <input type="text" name="contact-sub" placeholder="Subject" required />
-                    <!-- <label>Subject</label> -->
-                </div>
-
-                <div class="contact-input">
-                    <textarea name="contact-message" placeholder="Message" required></textarea>
-                    <!-- <label>Message</label> -->
-                </div>
-                <input type="hidden" name="action" value="contact_send" />
-                <div id="contact-submit">
-                    <button type="submit" id="contact-submit-btn" class="btn sec-btn">Submit</button>
-                </div>
-            </form>
-
         </div>
+    </main>
 
-        <div class="contact-us-more">
-            <div class="contact-us-more-container">
-                <div class="contact-us-more-img">
-                    <img src="9.svg" alt="">
-                </div>
-                <div class="contact-us-more-details">
-                    <h3>Customer Support Email</h3>
-                    <p>We are here to answer your questions if you need any help with our services. Refer to FAQs or
-                        write to us at</p>
-                    <a href="mailto:support@grambaba.com">support@grambaba.com</a>
-                    <a href="mailto:abhishekpathakilk@gmail.com">abhishekpathakilk@gmail.com</a>
 
-                </div>
+    <!-- features -->
 
+
+    <section class="whyUs">
+        <h2>Why GRAMBABA</h2>
+        <div class="container">
+            <div class="card"><span class="material-icons-round">bolt</span>
+                <h3>Instant Result</h3>
+                <p>Buy high quality Instagram services at affordable prices and get same day results.</p>
             </div>
 
+            <div class="card"><span class="material-icons-round">star</span>
+                <h3>Best Quality</h3>
+                <p>Buy high quality Instagram services at affordable prices and get same day results.</p>
+            </div>
+
+            <div class="card">
+                <span class="material-icons-round">sell</span>
+                <!-- <span class="material-icons-round">thumb_up_alt</span> -->
+                <h3>Cheap Price</h3>
+                <p>We provide the cheapest Instagram likes, views and followers in the world.</p>
+            </div>
+
+            <div class="card">
+                <span class="material-icons-round">password</span>
+                <!-- <span class="material-icons-round">key</span> -->
+                <h3>No Password Required</h3>
+                <p>Only post/reel link is required to place your order. Grambaba never asks you to share your
+                    Instagram password.</p>
+            </div>
+
+            <div class="card">
+                <span class="material-icons">payment</span>
+                <h3>Money Back Gurantee</h3>
+                <p>When your order is canceled, we initiate an immediate refund to your used payment source. </p>
+            </div>
+
+            <div class="card"><span class="material-icons-round">chat</span>
+                <h3>Instant Support</h3>
+                <p>If you have any questions, do not hesitate to contact us. Our support team is ready to assist you.
+                </p>
+            </div>
         </div>
-    </div>
+    </section>
 
 
 
@@ -179,28 +126,155 @@
 
 
 
+    <!-- services -->
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="container">
+            <div class="card"><img src="/assets/product/images/buy-instagram-views-grambaba.png">
+                <h3>Instagram Views</h3>
+                <p>Starting From Re 1</p><a href="/buy-instagram-views/" class="btn sec-btn ripple">Buy Now</a>
+            </div>
+            <div class="card"><img src="/assets/product/images/buy-instagram-likes-grambaba.png">
+                <h3>Instagram Likes</h3>
+                <p>Starting From Rs 10</p><a href="/buy-instagram-likes/" class="btn sec-btn ripple">Buy Now</a>
+            </div>
+            <div class="card"><img src="/assets/product/images/buy-instagram-reel-views-grambaba.png">
+                <h3>Instagram Reel Views</h3>
+                <p>Starting From Rs 2</p><a href="/buy-instagram-reel-views/" class="btn sec-btn ripple">Buy Now</a>
+            </div>
+            <div class="card"><img src="/assets/product/images/buy-instagram-reel-likes-grambaba.png">
+                <h3>Instagram Reel Likes</h3>
+                <p>Starting From Rs 10</p><a href="/buy-instagram-reel-likes/" class="btn sec-btn ripple">Buy Now</a>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
+    <!-- how to -->
+
+    <section class="howTo">
+        <h2>How to order a service on GRAMBABA</h2>
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <h3>Visit your service page</h3>
+                    <p>On Home page go to "Our Services" section and click on that service which you want to buy.</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h3>Choose Quantity</h3>
+                    <p>On the service page choose quantity. Ex- if you want to buy 1000 quanity then click/tap on 1000.
+                    </p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h3>Enter your Instagram Link</h3>
+                    <p>To get your post/reel link go to your post/reel and click on share then click on copy link.</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h3>Make Payment</h3>
+                    <p>Before making payment make sure your link is correct and you have choosen a quanity.</p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <h3>Thats All..</h3>
+                    <p>Make payment and Relax we will delever your service as soon as possible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
+    <!-- faq -->
+        <section class="faq">
+            <div class="faqContainer">
+                <div class="accordionRow">
+                    <h1 class="faqTitle">Frequently Asked Questions (FAQ)</h1>
+                    <!-- <hr> -->
+                    <ul class="accordionList">
+                        <li class="accordionItem">
+                            <input type="checkbox" checked="">
+                            <i></i>
+                            <h2>How to place order on GramBaba?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe laborum sit cumque ipsam, doloremque maiores, odio at corporis provident dolore necessitatibus exercitationem in eius nulla aliquam repellat repellendus vel?</p>
+                        </li>
+                        <li class="accordionItem">
+                            <input type="checkbox" checked="">
+                            <i></i>
+                            <h2>Is Instagram Password Required for place order?</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, cupiditate deserunt sapiente doloremque suscipit, hic quia, reiciendis illo error quod id soluta. Labore, cumque officia? Corrupti beatae eligendi pariatur aperiam.</p>
+                        </li>
+                        <li class="accordionItem">
+                            <input type="checkbox" checked="">
+                            <i></i>
+                            <h2>How to Pay Via Paytm QR?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatum illum eligendi repellat nihil quos quisquam cupiditate blanditiis, ipsa, tenetur necessitatibus saepe repudiandae quis quo ducimus animi architecto, dolore similique?</p>
+                        </li>
+                        <li class="accordionItem">
+                            <input type="checkbox" checked="">
+                            <i></i>
+                            <h2>How to Pay Via Paytm QR?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, enim. Error dignissimos, iste sequi aperiam quasi quia fugiat nihil eveniet? Fugit voluptates ullam pariatur reprehenderit nisi rem voluptas tenetur nobis!</p>
+                        </li>
+    
+                        <li class="accordionItem">
+                            <input type="checkbox" checked="">
+                            <i></i>
+                            <h2>How to Pay Via Paytm QR?</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum iste ut neque consequuntur blanditiis repellendus cumque dignissimos veniam. Enim amet et unde molestias eos mollitia atque nobis tempore reprehenderit delectus!</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
 
 
+    <!-- testimonials -->
 
-
-
-
-
-
-
-
-
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="cardWrapper">
+                <div class="card">
+                    <p>Ajeet Kumar</p>
+                    <p>Instagram User</p>
+                    <p><span class="material-icons-outlined">star star star star star</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta inventore, provident iste
+                        repudiandae perspiciatis sit nisi, hic mollitia ea eum vel sapiente, officiis quibusdam
+                        repellat? Voluptatum fugit voluptatem voluptatibus!</p>
+                </div>
+                <div class="card">
+                    <p>Atul Pathak</p>
+                    <p>Instagram User</p>
+                    <p><span class="material-icons-outlined">star star star star star</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta inventore, provident iste
+                        repudiandae perspiciatis sit nisi, hic mollitia ea eum vel sapiente, officiis quibusdam
+                        repellat? Voluptatum fugit voluptatem voluptatibus!</p>
+                </div>
+                <div class="card">
+                    <p>Khushi Upadhayay</p>
+                    <p>Instagram User</p>
+                    <p><span class="material-icons-outlined">star star star star star</span></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam dicta inventore, provident iste
+                        repudiandae perspiciatis sit nisi, hic mollitia ea eum vel sapiente, officiis quibusdam
+                        repellat? Voluptatum fugit voluptatem voluptatibus!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -212,7 +286,7 @@
             <div class="footerMenuList">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/buy-instagram-views/">Buy Instagram Likes</a></li>
+                    <li><a href="/buy-instagram-likes/">Buy Instagram Likes</a></li>
                     <li><a href="/buy-instagram-views/">Buy Instagram Views</a></li>
                     <li><a href="/buy-instagram-reel-views/">Buy Instagram Reel Views</a></li>
                     <li><a href="/buy-instagram-reel-likes/">Buy Instagram Reel Likes</a></li>
@@ -224,8 +298,7 @@
             </div>
 
             <div class="notice">
-                <p>All logos and trademarks of third parties referenced on grambaba.com are the trademarks and logos of
-                    their respective owners. All rights belong to their owners. We are not affiliated with Instagram.
+                <p>All logos and trademarks of third parties referenced on grambaba.com are the trademarks and logos of their respective owners. All rights belong to their owners. We are not affiliated with Instagram.
                 </p>
             </div>
         </div>
@@ -238,10 +311,13 @@
 
 
 
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         const themeBtnIcon = document.querySelector("button.theme-btn span");
+        
         function setTheme(themeName) {
             localStorage.setItem('theme', themeName);
             document.documentElement.className = themeName;
@@ -250,7 +326,6 @@
             else
                 themeBtnIcon.innerHTML = "dark_mode";
         }
-
 
         function toggleTheme() {
 
@@ -291,19 +366,18 @@
 
 
 
-
         // mobile menu
         function mobileMenu() {
             document.body.classList.toggle("modal-active");
             document.querySelector("header nav").classList.toggle("open-menu");
         }
 
-
+        
 
         (function (window, $) {
             $(function () {
                 $('.ripple').on('click', function (event) {
-                    event.preventDefault();
+                    // event.preventDefault();
                     var $btn = $(this),
                         $div = $('<div/>'),
                         btnOffset = $btn.offset(),
@@ -330,93 +404,26 @@
 
         })(window, jQuery);
 
+
+
+
+
+
+
+
+ 
+
+  $('a[href*="#"]').click(()=>{	
+    setTimeout(()=>{
+      removeHash();
+    }, 5);
+    });
+    function removeHash(){
+        history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
+    }
+
+
     </script>
-
-
-    <script>
-        jQuery(document).ready(function ($) {
-            var is_sending = false,
-                error_message = 'Oops, Something went wrong. Please try again later.';
-
-            var contactResponseEle = $('#contactFormResponse');
-            var contactformLoader = $('#contactFormLoader span');
-            var contactSuccessEle = $('#contactFormSuccess');
-            var contactErrorEle = $('#contactFormError');
-            var successResponseBtn = $('#contactFormSuccess .contactFormResponseBtn a:nth-child(2)');
-            var errorResponseBtn = $('#contactFormError .contactFormResponseBtn a:nth-child(2)');
-
-            // form fields
-            var $name = $('input[name="contact-name"]');
-            var $email = $('input[name="contact-email"]');
-            var $sub = $('input[name="contact-sub"]');
-            var $message = $('textarea[name="contact-message"]');
-
-
-
-            $(successResponseBtn).click(function () {
-                $name.val(null);
-                $email.val(null);
-                $sub.val(null);
-                $message.val(null);
-                contactSuccessEle.css('display', '');
-                contactResponseEle.css('display', '');
-            });
-
-            $(errorResponseBtn).click(function () {
-                contactErrorEle.css('display', '');
-                $('form#contact-form').submit();
-
-            });
-
-
-            $('form#contact-form').submit(function (e) {
-                if (is_sending || !validateContactFormInputs()) {
-                    return false;
-                }
-                e.preventDefault();
-                var $this = $(this);
-                $.ajax({
-                    url: "https://grambaba.com/contact-us/sendmail/",
-                    type: 'post',
-                    dataType: 'JSON',
-                    data: $this.serialize(),
-                    beforeSend: function () {
-                        contactResponseEle.css('display', 'flex');
-                        contactformLoader.css('display', 'block');
-                        is_sending = true;
-                    },
-                    error: function () {
-                        setTimeout(function () {
-                            contactformLoader.css('display', '');
-                            contactErrorEle.css('display', 'flex');
-                            is_sending = false;
-                        }, 2000);
-
-                    },
-                    success: function (data) {
-                        if (data.status === 'success') {
-                            setTimeout(function () {
-                                contactformLoader.css('display', '');
-                                contactSuccessEle.css('display', 'flex');
-                                is_sending = false;
-                            }, 2000);
-                        }
-                    }
-                });
-            });
-
-
-
-            function validateContactFormInputs() {
-                if (!$name.val() || !$email.val() || !$message.val() || !$sub.val()) {
-                    contactFormMessage == 'Please fill all the fields.';
-                    return false;
-                }
-                return true;
-            }
-        });
-    </script>
-
 </body>
 
 </html>

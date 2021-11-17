@@ -203,7 +203,7 @@
     <!-- loader -->
     <div id="payLoader"><span>.</span></div>
     <!-- to be sent data -->
-    <form id="orderData" method="POST" action="https://grambaba.com/order/order-details.php">
+    <form id="orderData" method="POST" action="https://grambaba.com/order/order-details/">
         <input type="hidden" name="orderiddata" id="orderiddata">
         <input type="hidden" name="serviceid" id="service" value="9220">
         <input type="hidden" name="iglinkdata" id="iglinkdata">

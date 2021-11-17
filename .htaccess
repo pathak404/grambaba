@@ -13,8 +13,8 @@
 
 
 	RewriteCond %{REQUEST_METHOD} POST
-	RewriteCond %{REQUEST_URI} /order/create-order\.php [NC,OR]
-    RewriteCond %{REQUEST_URI} /contact-us/sendmail\.php [NC]
+	RewriteCond %{REQUEST_URI} /order/create-order/ [NC,OR]
+    RewriteCond %{REQUEST_URI} /contact-us/sendmail/ [NC]
 	RewriteCond %{HTTP_REFERER} !(.*)grambaba.com(.*) [NC]
 	RewriteRule .* - [F,L]
 

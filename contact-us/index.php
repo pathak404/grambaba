@@ -376,7 +376,7 @@
                 e.preventDefault();
                 var $this = $(this);
                 $.ajax({
-                    url: "https://grambaba.com/contact-us/sendmail.php",
+                    url: "https://grambaba.com/contact-us/sendmail/",
                     type: 'post',
                     dataType: 'JSON',
                     data: $this.serialize(),
