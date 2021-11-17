@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1c1d1f">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+    <title>Order Details - GRAMBABA</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="fixed">
+        <div class="container">
+            <div class="logoWrapper">
+                <a href="#">GRAMBABA</a>
+            </div>
+            <nav role="navigation">
+                <ul class="navMenuList">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Buy Instagram Views</a></li>
+                    <li><a href="#">Buy Instagram Likes</a></li>
+                    <li><a href="#">Buy Instagram Reel Views</a></li>
+                    <li><a href="#">Buy Instagram Reel Likes</a></li>
+                    <li>
+                        <button class="theme-btn" onclick="toggleTheme();">
+                            <span class="material-icons-outlined theme-btn">light_mode</span>
+                        </button>
+                    </li>
+
+                </ul>
+            </nav>
+            <button class="mobileMenu"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened')); mobileMenu();"
+                aria-label="Main Menu">
+                <svg width="38" height="38" viewBox="0 0 100 100">
+                    <path class="line line1"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+
+
+
+    <!-- to do starts here -->
+
+    <section class="orderDetails">
+        <div class="container">
+
+            <span><svg class="contactResponseSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                <circle class="contactResponseSVG_circle" cx="26" cy="26" r="25" fill="none" />
+                <path class="contactResponseSVG_check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+            </svg></span>
+
+            <!-- <span><svg class="contactResponseErrorSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="contactResponseError_circle" cx="26" cy="26" r="25" fill="none" /><path class="contactResponseSVG_check" fill="none" d="M16 16 36 36 M36 16 16 36" /></svg></span> -->
+            <h2> Order Placed Successfully </h2> 
+
+            <table>
+                <tr>
+                    <th>Order ID</th>
+                    <td>123344</td>
+                </tr>
+                <tr>
+                    <th>Service</th>
+                    <td>Instagram Views</td>
+                </tr>
+                <tr>
+                    <th>Quantity</th>
+                    <td>5000</td>
+                </tr>
+                <tr>
+                    <th>Instagram Link</th>
+                    <td><a href="https://instagram.com/p/yrgfbbhfhfhfff?hdhdhdhdhdhhhhhh" target="_blank">https://instagram.com/p/yrgfbbhfhfhfff?hdhdhdhdhdhhhhhh</a></td>
+                </tr>
+                <tr>
+                    <th>Total Price</th>
+                    <td>1100</td>
+                </tr>
+            </table>
+
+            
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="topFooter">
+            <div class="footerMenuList">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Buy Instagram Likes</a></li>
+                    <li><a href="#">Buy Instagram Views</a></li>
+                    <li><a href="#">Buy Instagram Reel Views</a></li>
+                    <li><a href="#">Buy Instagram Reel Likes</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="notice">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Pariatur veritatis repudiandae ut alias. Dolore iure voluptatum aspernatur.
+                    A, ducimus! Architecto hic deleniti dolorem animi porro voluptate, illo delectus odit quos.
+                </p>
+            </div>
+        </div>
+        <div class="bottomFooter">
+            <p></p>
+            <p class="copyright">Made with code and coffee by Abhishek Pathak.</br>&copy; Copyright 2021, All rights
+                reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        const themeBtnIcon = document.querySelector("button.theme-btn span");
+        function setTheme(themeName) {
+            localStorage.setItem('theme', themeName);
+            document.documentElement.className = themeName;
+            if (themeName == "dark_mode")
+                themeBtnIcon.innerHTML = "light_mode";
+            else
+                themeBtnIcon.innerHTML = "dark_mode";
+        }
+
+        function toggleTheme() {
+
+            if (localStorage.getItem('theme') === 'dark_mode') {
+                setTheme('light_mode');
+                themeBtnIcon.innerHTML = "dark_mode";
+            } else {
+                setTheme('dark_mode');
+                themeBtnIcon.innerHTML = "light_mode";
+            }
+        }
+
+        // Immediately invoked function to set the theme on initial load
+        (function () {
+
+
+            if (localStorage.getItem('theme') === 'dark_mode') {
+                setTheme('dark_mode');
+                themeBtnIcon.innerHTML = "light_mode";
+            } else {
+                setTheme('light_mode');
+                themeBtnIcon.innerHTML = "dark_mode";
+            }
+        })();
+
+
+
+        // mobile menu
+        function mobileMenu() {
+            document.body.classList.toggle("modal-active");
+            document.querySelector("header nav").classList.toggle("open-menu");
+        }
+
+        
+
+        (function (window, $) {
+            $(function () {
+                $('.ripple').on('click', function (event) {
+                    event.preventDefault();
+                    var $btn = $(this),
+                        $div = $('<div/>'),
+                        btnOffset = $btn.offset(),
+                        xPos = event.pageX - btnOffset.left,
+                        yPos = event.pageY - btnOffset.top;
+
+                    $div.addClass('ripple-effect');
+                    $div
+                        .css({
+                            height: $btn.height(),
+                            width: $btn.height(),
+                            top: yPos - ($div.height() / 2),
+                            left: xPos - ($div.width() / 2),
+                            background: $btn.data("ripple-color") || "#fff"
+                        });
+                    $btn.append($div);
+
+                    window.setTimeout(function () {
+                        $div.remove();
+                    }, 2000);
+                });
+
+            });
+
+        })(window, jQuery);
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "name": "pathak/grambaba",
+    "description": "grambaba full code with backend and templates",
+    "type": "project",
+    "license": "",
+    "authors": [
+        {
+            "name": "Abhishek Pathak",
+            "email": "abhishekpathakilk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-firestore": "^1.20",
+        "razorpay/razorpay": "2.*",
+        "phpmailer/phpmailer": "^6.5",
+        "kreait/firebase-php": "^5.25"
+    }
+}
